@@ -39,7 +39,7 @@ if (isset($_SESSION['id'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -405,7 +405,7 @@ if (isset($_SESSION['id'])) {
 
       <footer><span>&copy; Copyright 2023 SmartSugar</span></footer>
    
-  
+      <script src="js/patient.js"></script>
 </body>
 
 </html>

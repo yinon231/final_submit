@@ -67,7 +67,6 @@ if(!empty($_POST['email']))
                 <label for="password" class="form-label ">Password</label>
                 <input type="password" class="form-control" name="password" id="password" placeholder="***">
               </div>
-              <p class="small"><a class="text-primary" href="forget-password.html">Forgot password?</a></p>
               <div class="d-grid">
                 <button class="btn btn-outline-dark" type="submit">Login</button>
               </div>
