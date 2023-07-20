@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.cdnfonts.com/css/amiko');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  position: relative;
+  min-height: 44px;
+  bottom: 0;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  font-size: 14px;
+  background-color: #1D3649;
+   height: 4.296875vh;
+   width: 100vw;
+}
+
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #EDEDED !important;
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.39844vh;
+  width: 100vw;
+  background-color: rgb(29, 54, 73);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+  display: none;
+}
+.button_meal {
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.button_meal:hover {
+  background-color: #2980b9;
+}
+
+.button_meal i {
+  margin-left: 8px;
+}
+.offcanvas.offcanvas-end {
+  width: 50vw !important;
+}
+
+.offcanvas {
+  background-color: #3E5D75 !important;
+}
+
+.horizontal-line {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-top: 1px solid #fff;
+}
+
+#flex-icons {
+  display: flex;
+    margin-right: 1.1vw;
+    align-items: center;
+}
+
+#logo {
+  background-image: url(../images/LogoSmart.png);
+  width: 86px;
+  height: 50px;
+  margin-left: 1.94444vw;
+  background-size: cover;
+}
+
+.material-symbols-outlined {
+  color: #fff;
+  fill: #fff;
+  font-size: 34px !important;
+  width: 28px;
+  height: 34px;
+  margin-right: 15px;
+}
+
+.icons-nav {
+  font-size: 15px !important;
+  width: 21px !important;
+  height: 19px !important;
+  margin-right: 12px !important;
+}
+
+#circle {
+    margin-right: 11px;
+    background-image: url(../images/Hagit_image.png);
+    width: 61px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.my-nav-link i {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.my-nav-linkk i {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.nav-link.my-nav-link {
+  display: flex !important;
+  align-items: center !important;
+  color: #293d43 !important;
+  font-family: 'Amiko';
+}
+
+.nav-link.my-nav-linkk {
+  display: flex !important;
+  align-items: center !important;
+  color: #b566b8 !important;
+  font-family: 'Amiko';
+}
+
+.nav-link {
+  display: flex !important;
+  align-items: center !important;
+  color: #fff !important;
+  font-family: 'Amiko';
+}
+
+.nav-underline {
+  gap: 27px !important;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.rectangle {
+  height: 34.80vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 341px;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 48.055vw;
+  border-radius: 20px;
+  background-color: #FFFFFF; /* change this to the color you want */
+  text-align: center; /* center the title horizontally */
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.title {
+  margin-top: 1.836vh !important;
+  margin-bottom: 1.53vh;
+  width: 100%;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center; /* center the text horizontally */
+}
+
+.type,
+.recommended,
+.sensor,
+.networkse {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.0372px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #919191;
+}
+
+.subject1 {
+  font-family: 'Amiko';
+  font-size: 14.01px;
+  font-weight: 700;
+  color: #24306E;
+  margin: 0 2px;
+}
+
+.sub-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 17.88%;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  border-radius: 30px;
+}
+
+.photo {
+  position: absolute;
+  top: 4px;
+  right: 7px;
+  border-radius: 50%;
+}
+
+.text_realtime {
+  z-index: 1; /* set a higher z-index than the circle */
+  margin-bottom: 0;
+  margin-top: 1.53vh;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.0372px;
+  line-height: 29px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #919191;
+}
+
+.circle_madad {
+  margin-bottom: 15px;
+  height: 143px;
+  width: 143px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column; /* set flex direction to column */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F89406;
+}
+
+.text {
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 1;
+  color: #F89406;
+}
+
+.units {
+  text-align: center;
+  font-size: 14.04px;
+  font-weight: bold;
+  line-height: 1;
+  color: #F89406;
+  margin-top: 10px; /* add margin-top to create space between the text and the units */
+}
+
+.subject i.fa-sharp {
+  margin-left: 55px;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text_time {
+  font-family: 'Amiko';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #909090;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+h1 {
+  margin-top: 2.539vh !important;
+  width: 100%;
+  font-family: 'Amiko';
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+h3 {
+  margin-bottom: 2.148vh !important;
+  font-family: 'Amiko';
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+
+@media (max-width: 768px) {
+  #flex-icons {
+    display: none;
+  }
+  .nav {
+    display: none !important;
+  }
+  .navbar-toggler {
+    display: inline;
+  }
+  .avatar-preview {
+    width: 80px;
+    height: 80px;
+  }
+  #pencil {
+    width: 23px;
+    height: 23px;
+  }
+  #pencil::after {
+    top: 3px;
+  }
+  .avatar-edit {
+    position: absolute;
+    right: -11px;
+    z-index: 1;
+    top: 10px;
+  }
+  .rectangle,
+  .change {
+    width: 90vw;
+  }
+}
+
+/* add */
+.tab-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Align items (buttons) to the start (left side) */
+  justify-content: center; /* Center the tab buttons horizontally */
+  flex-wrap: wrap; /* Allow the buttons to wrap to a new line if needed */
+  gap: 2px; /* Add some spacing between the tab buttons */
+  margin-bottom: 20px;
+}
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  background-color: #577ea7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-btn:focus {
+  outline: none;
+}
+
+.tab-btn:hover {
+  background-color: #0056b3;
+}
+
+.tab-btn.active {
+  background-color: #0056b3;
+}
+
+.tab-content {
+  margin-bottom: 400px;
+  display: none;
+}
+.tab-content.active {
+  display: block;
+  margin-top: 20px;
+}
+
+.tab-content p {
+  font-size: 18px;
+}
+
+/* Styling for the inner buttons */
+.inner-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+.inner-btn:hover {
+  background-color: #45a049;
+}
+.inner-btn.active {
+  background-color: #45a071;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tab-header {
+      flex-direction: row; /* Stack the tab buttons vertically on smaller screens */
+      align-items: center; /* Center the tab buttons vertically */
+  }
+}

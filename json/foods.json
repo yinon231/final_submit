@@ -1,0 +1,110 @@
+{
+    "morningFoods": [
+      {
+        "name": "Oatmeal",
+        "calories": 150,
+        "sugar": 2.5
+      },
+      {
+        "name": "Egg",
+        "calories": 78,
+        "sugar": 0.6
+      },
+      {
+        "name": "Greek Yogurt",
+        "calories": 100,
+        "sugar": 6.2
+      },
+      {
+        "name": "Banana",
+        "calories": 105,
+        "sugar": 14.4
+      },
+      {
+        "name": "Whole Wheat Toast",
+        "calories": 75,
+        "sugar": 0.9
+      }
+    ],
+    "lunchFoods": [
+      {
+        "name": "Grilled Chicken",
+        "calories": 230,
+        "sugar": 0
+      },
+      {
+        "name": "Brown Rice",
+        "calories": 216,
+        "sugar": 0.4
+      },
+      {
+        "name": "Mixed Green Salad",
+        "calories": 120,
+        "sugar": 2.1
+      },
+      {
+        "name": "Quinoa Bowl",
+        "calories": 320,
+        "sugar": 1.5
+      },
+      {
+        "name": "Roasted Vegetables",
+        "calories": 90,
+        "sugar": 4.8
+      }
+    ],
+    "dinnerFoods": [
+      {
+        "name": "Salmon",
+        "calories": 206,
+        "sugar": 0
+      },
+      {
+        "name": "Steamed Vegetables",
+        "calories": 55,
+        "sugar": 2.6
+      },
+      {
+        "name": "Baked Chicken Breast",
+        "calories": 165,
+        "sugar": 0
+      },
+      {
+        "name": "Quinoa Salad",
+        "calories": 180,
+        "sugar": 1.8
+      },
+      {
+        "name": "Sweet Potato",
+        "calories": 112,
+        "sugar": 7.2
+      }
+    ],
+    "snacksFoods": [
+      {
+        "name": "Almonds",
+        "calories": 164,
+        "sugar": 1.2
+      },
+      {
+        "name": "Greek Yogurt",
+        "calories": 59,
+        "sugar": 4.7
+      },
+      {
+        "name": "Carrot Sticks",
+        "calories": 52,
+        "sugar": 3.1
+      },
+      {
+        "name": "Apple",
+        "calories": 95,
+        "sugar": 19
+      },
+      {
+        "name": "Trail Mix",
+        "calories": 175,
+        "sugar": 7.9
+      }
+    ]
+  }

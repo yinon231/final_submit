@@ -1,0 +1,451 @@
+body {
+	font-family: 'Assistant', sans-serif;
+	margin:20px;
+	padding:0px;
+	margin:0px;
+}
+
+.logo-title {
+	background:-webkit-linear-gradient(#3E5D75,#3E5D75);
+	color:#fff;
+	padding:10px 0px;
+	border-radius:6px;
+	font-weight:100;
+}
+
+#menu {
+	margin-top:30px;
+}
+	
+.card {
+	text-align:center;
+}
+
+
+.card-img-top1,.card-img-top2,.card-img-top3,.card-img-top4 {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZoqZ3OLW2NsK6v4lpit-wlMPbLbKYpL8TOQ&usqp=CAU');
+	background-position: center center;
+	background-size: 100%;
+	width: 100%;
+	height: 300px;
+	transition: 0.3s;
+	border-radius:4px 4px 0px 0px;
+  }
+  .card-img-top2 {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_HOSVzgJGBIkreP2n8yrcpU5b_OON_t7mkw&usqp=CAU');
+  }
+  .card-img-top3 {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkT6R5CsPzp9zTOFn56AfRH_Y6bNFUeFSOKw&usqp=CAU');
+  }
+  .card-img-top4 {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8U4NSs_G71cY5y55cnpxNY6Wp3XeRZdJglQ&usqp=CAU');
+  }
+
+.form-group {
+	display:inline-block;
+	width:calc(50% - 2px);
+}
+
+.btn-primary {
+	width:100%;
+	font-weight:900;
+	font-size:18px;
+	margin-top:-6px;
+	background:#0086d8;
+	border:0;
+}
+
+.form-control {
+	text-align:center;
+}
+
+.btn-save-meal {
+	font-size:12px;
+	font-weight:500;
+}
+
+.search-results-container {
+background-color: white;
+border: 1px solid #ccc;
+padding: 10px;
+z-index: 1;
+position:absolute;
+width:553px;
+margin-top:4px;
+border-radius:4px;
+display:none;
+max-width:40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-results-container {
+	  max-width:100%;
+	  width:calc(100% - 20px);
+	  left:10px;
+	  margin-top:8px;
+  }
+}
+
+
+
+  body {
+    font-family: 'Assistant', sans-serif;
+    margin: 20px;
+  }
+
+  .logo-title {
+    background: -webkit-linear-gradient(#3E5D75, #3E5D75);
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 6px;
+    font-weight: 100;
+  }
+
+  #menu {
+    margin-top: 30px;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card-img-top1,
+  .card-img-top2,
+  .card-img-top3,
+  .card-img-top4 {
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+  }
+
+  .form-group {
+    display: inline-block;
+    width: calc(50% - 2px);
+  }
+
+  .btn-primary {
+    width: 100%;
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: -6px;
+    background: #0086d8;
+    border: 0;
+  }
+
+  .form-control {
+    text-align: center;
+  }
+
+  .btn-save-meal {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .search-results-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    width: 553px;
+    margin-top: 4px;
+    border-radius: 4px;
+    display: none;
+    max-width: 40%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .search-results-container {
+      max-width: 100%;
+      width: calc(100% - 20px);
+      left: 10px;
+      margin-top: 8px;
+    }
+  }
+ 
+  header{
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    width: 100%;
+    background: -webkit-linear-gradient(#3E5D75, #3E5D75);
+    border-bottom: 1px solid #FFFFFF;
+	position:fixed;
+	right:0;
+	top:0;
+  top: 0;
+  z-index: 2; /* Set z-index higher than the cards */
+}
+.navbar-toggler{
+    display: none;
+
+}
+.offcanvas.offcanvas-end{
+    width: 50vw !important;
+}
+.offcanvas{
+    background-color: #3E5D75 !important;
+}
+.horizontal-line
+{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-top: 1px solid #ffff;
+}
+#flex-icons{
+    display: flex;
+    margin-right: 1.1vw;
+    align-items: center;
+}
+#logo{
+    background-image: url(../images/LogoSmart.png);
+    width: 86px;
+    height: 50px;
+    margin-left: 1.94444vw;
+}
+  
+.material-symbols-outlined{
+    color: #ffff;
+    fill: #ffff;
+    font-size: 17px;
+    height: 34px;
+    margin-right: 10px;
+	text-decoration:none;
+}
+
+.icons-nav{
+    font-size:15px !important;
+    width: 21px !important;
+    height: 19px !important;
+    margin-right: 12px !important;
+}
+#circle{
+    margin-right: 11px;
+    background-image: url(../images/Hagit_image.png);
+    width: 61px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.nav{
+    width: auto;
+}
+.nav-link{
+   display: flex !important;
+   align-items: center !important;
+   color:#ffff !important;
+}
+
+
+    .edit-button, .delete-button {
+        border-radius: 50%;
+        width: 29px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        border: none; /* Removes the border */
+        padding: 0;
+    }
+    .edit-button i {
+        color: #444444;
+    }
+    .delete-button {
+        background-color: #F2DEDE;
+    }
+    .edit-button {
+        background-color: #000000;
+    }
+    .delete-button i {
+        color: #973434;
+    }
+    .btn-warning .fas.fa-pen {
+        color: #444444;
+    }
+    .custom-bg-color {
+        background-color: #3E5D75;
+        color: white;
+        width: 80px;
+        height: 40px;
+        border-radius: 35px;
+        border: none;
+        text-decoration: none;
+        font-weight:normal;
+    }
+    .small{
+        display: none;
+        margin-bottom: 30.17vh
+
+    }
+    .data{
+        width: 100%;
+    }
+    .cover{
+        display: flex;
+        align-items: center;
+        gap:1.76%;
+        width: 75%;
+    }
+    .deleteForm1{
+        gap: 10%;
+        display: flex;
+    }
+    .flex-data{
+        display: flex;
+        align-items: center;
+        gap:10px
+    }
+    .profile-small{
+        min-height: 55px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5.633%;
+        padding-right: 5.633%;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px;
+        height: 11.09vh;
+        margin-bottom: 1.66vh;
+    }
+    span{
+        text-align: center !important;  
+    }
+    #bold{
+        font-weight: bold;
+        color: #000000;
+    }
+
+
+   @media (max-width: 1059px) 
+    {
+        .search{
+            height: 5.156vh !important; 
+            width: 100% !important; 
+            border-radius: 35px !important;
+        }
+       .big{
+        display: none;
+       }
+       .small{
+        display: block;
+       }
+       .btn-div{
+        margin-bottom: 7.031vh;
+       }
+    }
+	
+	
+	    @media (max-width: 768px) {
+        #flex-icons{
+            display: none;
+        }
+        .nav{
+            display: none !important;
+        }
+        .navbar-toggler{
+            display: inline;
+        }
+        .avatar-preview {
+            width: 80px;
+            height: 80px;
+        } 
+        #pencil {
+            width: 23px;
+            height: 23px;
+        }
+        #pencil::after{
+            top:3px
+        }
+        .avatar-edit {
+            position: absolute;
+            right: -11px;
+            z-index: 1;
+            top: 10px;
+        }
+    }  
+
+
+
+
+
+    @media (max-width: 768px) {
+      /* Make the logo-title font size smaller for smaller screens */
+      .logo-title {
+        font-size: 24px;
+      }
+  
+      /* Reduce the margin between form groups for smaller screens */
+      .form-group {
+        margin-bottom: 10px;
+      }
+  
+      /* Adjust the width of the form groups for smaller screens */
+      .form-group {
+        width: 100%;
+      }
+  
+      /* Center the "Add Food" button for smaller screens */
+      .text-center {
+        text-align: center;
+      }
+  
+      /* Adjust the width of the cards for smaller screens */
+      .card {
+        width: 100%;
+      }
+  
+      /* Adjust the height of the card images for smaller screens */
+      .card-img-top1,
+      .card-img-top2,
+      .card-img-top3,
+      .card-img-top4 {
+        height: 200px;
+      }
+  
+      /* Make the total section responsive */
+      .col-md-6 {
+        width: 100%;
+      }
+  
+      /* Adjust the width of the search results container for smaller screens */
+      .search-results-container {
+        max-width: 100%;
+        width: calc(100% - 20px);
+        left: 10px;
+      }
+  
+      /* Hide the navbar links and show the toggler for smaller screens */
+      .nav-link {
+        display: none;
+      }
+  
+      .navbar-toggler {
+        display: inline;
+      }
+  
+      /* Adjust the size of the avatar preview and the edit icon for smaller screens */
+      .avatar-preview {
+        width: 60px;
+        height: 60px;
+      }
+  
+      #pencil {
+        width: 18px;
+        height: 18px;
+      }
+  
+      #pencil::after {
+        top: 1px;
+      }
+    }
+
+    
