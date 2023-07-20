@@ -11,6 +11,7 @@ if(!empty($_POST['email']))
   $row=mysqli_fetch_array($result);
   if(is_array($row))
   {
+  
    $name=$row['name'];
    $_SESSION['id']=$row['id'];
    $_SESSION['img']=$row['img'];
@@ -22,6 +23,7 @@ if(!empty($_POST['email']))
     $query1="SELECT PatientID FROM tbl_203_patients WHERE name='".$name."'";
     $result1=mysqli_query($connection,$query1);
     $row1=mysqli_fetch_array($result1);
+    $_SESSION['patientID']=$row['PatientID'];
     if($row1)
     {
     header('Location: ' .URL. 'patient.php?id='.$row1['PatientID'].'');

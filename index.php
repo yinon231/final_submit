@@ -3,8 +3,14 @@ include "db.php";
 include "config.php";
 session_start();
 if (isset($_SESSION['id'])) {
+  if($_SESSION['user_type']=="user")
+  {
+    header('Location: ' . URL . 'patient.php?id=' . $_SESSION['patientID']);
+  }
+  else{
   $query="SELECT * FROM tbl_203_patients WHERE UserID=".$_SESSION['id']."";
   $result=mysqli_query($connection,$query);  
+  }
 } else {
   header('Location: ' .URL. 'login.php');
   
