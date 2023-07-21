@@ -40,7 +40,12 @@ if (isset($_SESSION['id'])) {
 </head>
 <body>
 <header>
-    <a href="#" id="logo"></a>
+<?php if($_SESSION['user_type']=="admin")
+  {
+    echo "<a href='index.php' id='logo'></a>";
+  }
+  else echo "<a href='patient.php?id='".$_SESSION['patientID']."'' id='logo'></a>";
+  ?>
     <button class="navbar-toggler" type="button" id="btn-hamburger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="material-symbols-outlined">menu</span>
       </button>
