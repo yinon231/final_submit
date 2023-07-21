@@ -23,7 +23,7 @@ if(!empty($_POST['email']))
     $query1="SELECT PatientID FROM tbl_203_patients WHERE name='".$name."'";
     $result1=mysqli_query($connection,$query1);
     $row1=mysqli_fetch_array($result1);
-    $_SESSION['patientID']=$row['PatientID'];
+    $_SESSION['patientID']=$row1['PatientID'];
     if($row1)
     {
     header('Location: ' .URL. 'patient.php?id='.$row1['PatientID'].'');
